@@ -5,6 +5,10 @@ export type NavigationItem = {
 
 export const headerNavigation: NavigationItem[] = [
   {
+    to: '/about',
+    label: 'About',
+  },
+  {
     to: '/services',
     label: 'Services',
   },
@@ -12,10 +16,6 @@ export const headerNavigation: NavigationItem[] = [
     to: '/blog',
     label: 'Blog',
   },
-  // {
-  //   to: '/about',
-  //   label: 'About',
-  // },
 ];
 
 export const footerNavigation: NavigationItem[] = [

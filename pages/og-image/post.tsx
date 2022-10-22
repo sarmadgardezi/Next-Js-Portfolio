@@ -90,10 +90,10 @@ const OGImagePostTemplatePage: NextPage = () => {
           <Avatar size={62} />
           <div className="name">
             <span className="written-by">Written by</span>
-            Konstantin Münster
+           Sarmad Gardezi
           </div>
         </div>
-        <div className="site-url">konstantin.digital/blog</div>
+        <div className="site-url">sarmadgardezi.com/blog</div>
       </div>
     </StyledScreenshotCanvas>
   );

@@ -53,12 +53,12 @@ export const HeroSection: React.FC = () => {
           </TextDecoration>{' '}
           code. Thinking{' '}
           <TextDecoration variant="underline" color={colors.pinky.value}>
-            product
+            Design
           </TextDecoration>
           .
         </h1>
         <p>I help individuals and companies build better web applications.</p>
-        <p>Available for freelance work in Hamburg or remote.</p>
+        <p>Available for freelance work as remote.</p>
       </ContentWrapper>
       <div className="profile-card-bg">
         <ContentWrapper>

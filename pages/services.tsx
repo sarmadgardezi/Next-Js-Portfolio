@@ -13,17 +13,17 @@ import { getBaseUrl } from '@utils/getBaseUrl';
 import { socialProfiles } from '@config/profiles.config';
 
 const baseUrl = getBaseUrl();
-
 const seoProps = generateSeoProps({
+  
   url: `${baseUrl}/services`,
-  title: 'Product & Web Development Services by Konstantin Münster',
+  title: 'Services | Sarmad Gardezi',
   description:
-    'I am a freelance web / product developer with over 5 years of experience and a background in product management.',
+    'I am a freelance web / product developer with over 5 years of experience and a background in React & Web Apps',
 });
 
 const jsonLdProps: OrganizationJsonLdProps = {
   type: 'Corporation',
-  name: 'Konstantin Münster',
+  name: 'Sarmad Gardezi',
   url: `${baseUrl}/services`,
   logo: `${baseUrl}/images/logo-k.png`,
   contactPoints: [
@@ -36,9 +36,9 @@ const jsonLdProps: OrganizationJsonLdProps = {
   makesOffer: [
     {
       itemOffered: {
-        name: 'Product & Web Development Services',
+        name: 'Services | Sarmad Gardezi',
         description:
-          'I am a freelance web / product developer with over 5 years of experience and a background in product management.',
+          'I am a freelance web / product developer with over 5 years of experience and a background in React & Web Apps.',
       },
     },
   ],

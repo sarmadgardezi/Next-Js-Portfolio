@@ -12,19 +12,19 @@ export const generateRssFeed = async () => {
 
   const date = new Date();
   const author = {
-    name: 'Konstantin Münster',
+    name: 'Sarmad Gardezi',
     email: getEmailAddress(socialProfiles),
     link: baseUrl,
   };
 
   const feed = new Feed({
-    title: "Konstantin Münster's Blog",
+    title: "Sarmad Gardezi's Blog",
     description: 'Tutorials, guides, and advice for web developers.',
     id: baseUrl ?? 'km-id',
     link: baseUrl,
     image: `${baseUrl}/favicon.ico`,
     favicon: `${baseUrl}/favicon.ico`,
-    copyright: `All rights reserved ${date.getFullYear()}, Konstantin Münster`,
+    copyright: `All rights reserved ${date.getFullYear()}, Sarmad Gardezi`,
     updated: date,
     feedLinks: {
       rss2: `${baseUrl}/rss.xml`,

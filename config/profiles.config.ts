@@ -14,27 +14,27 @@ export const TwitterHandle = '@konstantinmnstr';
 
 export const socialProfiles: Profile[] = [
   {
-    to: 'https://www.linkedin.com/in/konstantin-muenster/',
+    to: 'https://www.linkedin.com/in/sarmadgardezi/',
     label: 'LinkedIn',
     icon: LinkedInSvg,
   },
   {
-    to: 'https://github.com/konstantinmuenster/',
+    to: 'https://github.com/sarmadgardezi/',
     label: 'Github',
     icon: GithubSvg,
   },
   {
-    to: 'https://twitter.com/konstantinmnstr',
+    to: 'https://twitter.com/sarmadgardezi',
     label: 'Twitter',
     icon: TwitterSvg,
   },
   {
-    to: 'https://medium.com/@konstantinmuenster',
+    to: 'https://medium.com/@sarmadgardezi',
     label: 'Medium',
     icon: MediumSvg,
   },
   {
-    to: 'mailto:mail@konstantin.digital',
+    to: 'mailto:mail@sarmadgardezi.com',
     label: 'Email',
   },
 ];

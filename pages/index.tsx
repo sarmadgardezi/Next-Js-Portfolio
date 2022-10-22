@@ -18,7 +18,7 @@ import type { EnrichedProjectMatter } from './projects/[slug]';
 const baseUrl = getBaseUrl();
 
 const jsonLdProps: SocialProfileJsonLdProps = {
-  name: 'Konstantin Münster',
+  name: 'Sarmad Gardezi',
   type: 'Person',
   url: baseUrl,
   sameAs: socialProfiles
@@ -38,7 +38,7 @@ const HomePage: NextPage<HomePageProps> = props => {
       <HeroSection />
       <IntroductionSection />
       <LatestPostsSection posts={props.posts} />
-      <LatestProjectsSection projects={props.projects} />
+     {/*  <LatestProjectsSection projects={props.projects} />*/}
       <ContactCard />
     </>
   );

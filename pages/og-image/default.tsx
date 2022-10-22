@@ -65,11 +65,11 @@ const OGImageDefaultTemplatePage: NextPage = () => {
         <div className="details">
           <Avatar size={200} />
           <div className="name">
-            <h1>Konstantin Münster</h1>
-            <span>Web & Product Developer</span>
+            <h1>Sarmad Gardezi</h1>
+            <span>Web & Apps Developer</span>
           </div>
         </div>
-        <div className="site-url">konstantin.digital/blog</div>
+        <div className="site-url">sarmadgardezi.com/blog</div>
       </div>
     </StyledScreenshotCanvas>
   );

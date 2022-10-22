@@ -65,20 +65,20 @@ export const IntroductionSection: React.FC = () => {
         <div className="description">
           <h3 className="title">Nice to have you here.</h3>
           <p className="subtitle">
-            Hey, I&apos;m Konstantin. I am a freelance web developer with a
-            background in product management.
+            Hey, I&apos;m Sarmad. I am a freelance web developer with a
+            background in Software Engineering.
           </p>
           <p>
-            My passion has always been at the intersection of product and
-            engineering. I mostly work with startups and small companies to
-            create beautiful digital products and web applications. Besides, I
-            write regularly on my blog about web and product development as well
-            as careers.
+            My passion has always been at the intersection of Design and
+            Coding. I mostly work with startups and small companies to
+            create beautiful digital Web Design and web applications. Besides, I
+            write regularly on my blog about web and Apps development as well
+            as careers & Freelancing.
           </p>
         </div>
         <Picture
           src={PortraitImage}
-          alt="Konstantin Münster Portrait"
+          alt="Sarmad Gardezi Portrait"
           placeholder="blur"
           height="22rem"
           width="20rem"

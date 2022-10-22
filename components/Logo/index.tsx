@@ -54,7 +54,7 @@ export const Logo = ({
   return (
     <Link href="/" passHref>
       <a aria-label="Go to home page" className="logo">
-        {LogoSvg}
+      Sarmad Gardezi
       </a>
     </Link>
   );

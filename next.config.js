@@ -15,7 +15,7 @@ const nextConfig = {
 module.exports = withPlaiceholder(
   withNextBanner({
     nextBanner: {
-      domain: 'https://konstantin.digital',
+      domain: 'https://sarmadgardezi.com',
       layoutDir: 'og-image',
       outputDir: 'images/og-image',
     },
